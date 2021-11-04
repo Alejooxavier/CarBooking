@@ -11,6 +11,7 @@ namespace Core.Api.Config
 			CreateMap<CategoriaVehiculo, CategoriaVehiculoDto>();
 			CreateMap<ColoresVehiculo, ColoresVehiculoDto>();
 			CreateMap<MarcasVehiculo, MarcasVehiculoDto>();
+			CreateMap<Agencias, AgenciasDto>();
 		}
 	}
 }
